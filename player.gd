@@ -12,3 +12,4 @@ func _on_pickup_area_area_entered(area: Area2D) -> void:
 		$HeldSnowglobe.visible = true
 	if area.is_in_group("Basket") and $HeldSnowglobe.visible:
 		$HeldSnowglobe.visible = false
+		#hello

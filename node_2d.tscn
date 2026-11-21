@@ -44,7 +44,7 @@ position = Vector2(-400, 43)
 position = Vector2(-163, 39)
 
 [node name="Basket" type="Area2D" parent="." unique_id=441620339 groups=["Basket"]]
-position = Vector2(-48, 0)
+position = Vector2(-48, 5)
 
 [node name="Sprite2D" type="Sprite2D" parent="Basket" unique_id=2015137180]
 position = Vector2(1089.5, 493.25)
