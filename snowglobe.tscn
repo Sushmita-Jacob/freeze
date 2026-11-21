@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cm6c50wyiaufl"]
+
+[ext_resource type="Texture2D" uid="uid://djn4gewpiyfo" path="res://snowglobe.png" id="1_u2g6x"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_epypp"]
+radius = 121.0661
+
+[node name="Snowglobe" type="Area2D" unique_id=1950069210 groups=["Snowglobe"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=567977295]
+position = Vector2(970, 485)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_u2g6x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=758455057]
+position = Vector2(962, 477)
+shape = SubResource("CircleShape2D_epypp")
