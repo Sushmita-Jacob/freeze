@@ -4,36 +4,326 @@
 [ext_resource type="Texture2D" uid="uid://djn4gewpiyfo" path="res://snowglobe.png" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://c3dl3bg4jjbjw" path="res://cute-winter-penguin-free-png.webp" id="2_epypp"]
 [ext_resource type="PackedScene" uid="uid://cm6c50wyiaufl" path="res://snowglobe.tscn" id="3_epypp"]
+[ext_resource type="Texture2D" uid="uid://qwgrvn3jhlpd" path="res://ice/VFX 1 Hit1.png" id="5_bjha6"]
 [ext_resource type="Texture2D" uid="uid://b7ukw4on6y4j7" path="res://cup.png" id="5_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://m7r0m324pk5f" path="res://ice/VFX 1 Hit2.png" id="6_gt76g"]
+[ext_resource type="Texture2D" uid="uid://duu5mb783ugdd" path="res://ice/VFX 1 Hit3.png" id="7_1fr6y"]
+[ext_resource type="Texture2D" uid="uid://caa2d30w52f6s" path="res://ice/VFX 1 Hit4.png" id="8_2hxjc"]
+[ext_resource type="Texture2D" uid="uid://b4bbg828khgin" path="res://ice/VFX 1 Hit5.png" id="9_ebxd8"]
+[ext_resource type="Texture2D" uid="uid://cqare82kamto4" path="res://ice/VFX 1 Hit6.png" id="10_2u7jv"]
+[ext_resource type="Texture2D" uid="uid://dolekh2sxgr8x" path="res://ice/VFX 1 Hit7.png" id="11_24dk6"]
+[ext_resource type="Texture2D" uid="uid://bugwvkqflqvx2" path="res://ice/VFX 1 Hit8.png" id="12_mryly"]
+[ext_resource type="Texture2D" uid="uid://beernvi35e3lf" path="res://ice/VFX 1 Repeatable1.png" id="13_kq1c5"]
+[ext_resource type="Texture2D" uid="uid://cku62355qmtkh" path="res://ice/VFX 1 Repeatable2.png" id="14_ornx7"]
+[ext_resource type="Texture2D" uid="uid://dae5jejn852a8" path="res://ice/VFX 1 Repeatable3.png" id="15_cnnru"]
+[ext_resource type="Texture2D" uid="uid://k3p77yhqgb0o" path="res://ice/VFX 1 Repeatable4.png" id="16_540hr"]
+[ext_resource type="Texture2D" uid="uid://b3koc5setqba0" path="res://ice/VFX 1 Repeatable5.png" id="17_6ip5v"]
+[ext_resource type="Texture2D" uid="uid://3iyj1ybu4jvm" path="res://ice/VFX 1 Repeatable6.png" id="18_q5dlx"]
+[ext_resource type="Texture2D" uid="uid://kyufpp58bbs7" path="res://ice/VFX 1 Repeatable7.png" id="19_c4wnb"]
+[ext_resource type="Texture2D" uid="uid://dpbv2gs8o1b3r" path="res://ice/VFX 1 Repeatable8.png" id="20_7plk7"]
+[ext_resource type="Texture2D" uid="uid://cpvbnt34nmmsq" path="res://ice/VFX 1 Repeatable9.png" id="21_fbwgr"]
+[ext_resource type="Texture2D" uid="uid://c05kekk0xf2ku" path="res://ice/VFX 1 Repeatable10.png" id="22_7mj2a"]
+[ext_resource type="Texture2D" uid="uid://dqw8lq78q5dqv" path="res://ice/VFX 1 Start1.png" id="23_fshgd"]
+[ext_resource type="Texture2D" uid="uid://c72g6ey7qxxlk" path="res://ice/VFX 1 Start2.png" id="24_lbrxf"]
+[ext_resource type="Texture2D" uid="uid://8wkrvwn6si6p" path="res://ice/VFX 1 Start3.png" id="25_xjt7e"]
+[ext_resource type="Texture2D" uid="uid://dawi21ubnyc3l" path="res://ice2/Ice VFX 2 Start1.png" id="26_22e24"]
+[ext_resource type="Texture2D" uid="uid://bfd15pb5v44cn" path="res://ice2/Ice VFX 2 Start2.png" id="27_m7xe6"]
+[ext_resource type="Script" uid="uid://csargy7ig368r" path="res://icicle.gd" id="27_wqmsq"]
+[ext_resource type="Texture2D" uid="uid://ctahthiaqr3iu" path="res://ice2/Ice VFX 2 Start3.png" id="28_wqmsq"]
+[ext_resource type="Texture2D" uid="uid://cboy643r2bwfb" path="res://ice2/Ice VFX 2 Start4.png" id="29_fkgk1"]
+[ext_resource type="Texture2D" uid="uid://ds0enlm6s56q8" path="res://ice2/Ice VFX 2 Start5.png" id="30_qgxp6"]
+[ext_resource type="Texture2D" uid="uid://dgmofl5sxujv5" path="res://ice2/Ice VFX 2 Start6.png" id="31_akb8o"]
+[ext_resource type="Texture2D" uid="uid://cs75kugnpuuus" path="res://ice2/Ice VFX 2 Start7.png" id="32_t3mf0"]
+[ext_resource type="Texture2D" uid="uid://bpwfg4odu4anq" path="res://ice2/Ice VFX 2 Start8.png" id="33_kejda"]
+[ext_resource type="Texture2D" uid="uid://dj24n6efxswn3" path="res://ice2/Ice VFX 2 Start9.png" id="34_uqk8q"]
+[ext_resource type="Texture2D" uid="uid://ddeslsgbtr5qt" path="res://ice2/Ice VFX 2 Active1.png" id="35_6uidu"]
+[ext_resource type="Texture2D" uid="uid://ck76ckkht8yg6" path="res://ice2/Ice VFX 2 Active2.png" id="36_qu7as"]
+[ext_resource type="Texture2D" uid="uid://cjo7dgiwwuoiw" path="res://ice2/Ice VFX 2 Active3.png" id="37_lyuya"]
+[ext_resource type="Texture2D" uid="uid://b3idsaprcub61" path="res://ice2/Ice VFX 2 Active4.png" id="38_5fipt"]
+[ext_resource type="Texture2D" uid="uid://buegf62cyl6hk" path="res://ice2/Ice VFX 2 Active5.png" id="39_j02gt"]
+[ext_resource type="Texture2D" uid="uid://bjt8kaob3xa2p" path="res://ice2/Ice VFX 2 Active6.png" id="40_thyvg"]
+[ext_resource type="Texture2D" uid="uid://ds4baaw4g5vtr" path="res://ice2/Ice VFX 2 Active7.png" id="41_nsnm2"]
+[ext_resource type="Texture2D" uid="uid://d1mjk86sf87fk" path="res://ice2/Ice VFX 2 Active8.png" id="42_f8kvm"]
+[ext_resource type="Texture2D" uid="uid://catx2hdyg65yb" path="res://ice2/Ice VFX 2 Ending1.png" id="43_3hhlv"]
+[ext_resource type="Texture2D" uid="uid://dk4cl88yl7vc4" path="res://ice2/Ice VFX 2 Ending2.png" id="44_d88dk"]
+[ext_resource type="Texture2D" uid="uid://yomyo8m8vt7b" path="res://ice2/Ice VFX 2 Ending3.png" id="45_122lf"]
+[ext_resource type="Texture2D" uid="uid://bhgiw6pjhj4w6" path="res://ice2/Ice VFX 2 Ending4.png" id="46_r3ryn"]
+[ext_resource type="Texture2D" uid="uid://fssocdeec0tf" path="res://ice2/Ice VFX 2 Ending5.png" id="47_7ct8v"]
+[ext_resource type="Texture2D" uid="uid://pp75cnnsffna" path="res://ice2/Ice VFX 2 Ending6.png" id="48_sg3tl"]
+[ext_resource type="Texture2D" uid="uid://cldyjkvph1dbu" path="res://ice2/Ice VFX 2 Ending7.png" id="49_0fsb4"]
+[ext_resource type="Texture2D" uid="uid://chm4sm4085i3d" path="res://ice2/Ice VFX 2 Ending8.png" id="50_vl5tj"]
+[ext_resource type="Texture2D" uid="uid://b1dsr2moybin8" path="res://ice2/Ice VFX 2 Ending9.png" id="51_16pp4"]
+[ext_resource type="Texture2D" uid="uid://cf22owikwhg5x" path="res://ice2/Ice VFX 2 Ending10.png" id="52_5od4l"]
+[ext_resource type="Texture2D" uid="uid://bt8milrknqphp" path="res://ice2/Ice VFX 2 Ending11.png" id="53_4himb"]
+[ext_resource type="Texture2D" uid="uid://ca0d7n02ac706" path="res://ice2/Ice VFX 2 Ending12.png" id="54_fv7tb"]
+[ext_resource type="Texture2D" uid="uid://ocyxvcu2s7ld" path="res://ice2/Ice VFX 2 Ending13.png" id="55_1m5r5"]
+[ext_resource type="Texture2D" uid="uid://cllpkthgf1gby" path="res://ice2/Ice VFX 2 Ending14.png" id="56_2wyoe"]
+[ext_resource type="Texture2D" uid="uid://c2xhoqcmrq5ju" path="res://ice2/Ice VFX 2 Ending15.png" id="57_5cr6e"]
+[ext_resource type="Texture2D" uid="uid://d2mumb5x4kpxg" path="res://ice2/Ice VFX 2 Ending16.png" id="58_fm8k7"]
+[ext_resource type="Texture2D" uid="uid://cylgkyvxd8awv" path="res://ice2/Ice VFX 2 Ending17.png" id="59_n63ng"]
+[ext_resource type="Texture2D" uid="uid://cpfj531ovhrvv" path="res://ice2/Ice VFX 2 Ending18.png" id="60_wnn4a"]
+[ext_resource type="Texture2D" uid="uid://yaba6qjb74d0" path="res://ice2/Ice VFX 2 Active9.png" id="61_1aygh"]
+
+[sub_resource type="Animation" id="Animation_22e24"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_m7xe6"]
+resource_name = "waddle"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.08726646, 0.0, -0.08726646, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wqmsq"]
+_data = {
+&"RESET": SubResource("Animation_22e24"),
+&"waddle": SubResource("Animation_m7xe6")
+}
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_epypp"]
-radius = 244.0
-height = 638.0
+radius = 432.0
+height = 1064.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kdubu"]
 radius = 110.0
 height = 300.0
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_td2a2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_22e24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_m7xe6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_wqmsq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_fkgk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_qgxp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_akb8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_t3mf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_kejda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_uqk8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_6uidu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_qu7as")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_lyuya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_5fipt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_j02gt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_thyvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_nsnm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_f8kvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_3hhlv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_d88dk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_122lf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_r3ryn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_7ct8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_sg3tl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_0fsb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_vl5tj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_16pp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_5od4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_4himb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_fv7tb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_1m5r5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_2wyoe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_5cr6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_fm8k7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_n63ng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_wnn4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_1aygh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0xo8l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_fshgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_lbrxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_xjt7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_kq1c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ornx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_cnnru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_540hr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_6ip5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_q5dlx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_c4wnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_7plk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_fbwgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_7mj2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bjha6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gt76g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1fr6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_2hxjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ebxd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2u7jv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_24dk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mryly")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
 [node name="Node2D" type="Node2D" unique_id=259192807 groups=["Basket", "Snowglobe"]]
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=39148847]
+position = Vector2(77, -107)
 script = ExtResource("1_0e48y")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=854175339]
 position = Vector2(182.50003, 348.75)
-scale = Vector2(0.62332445, 0.52193886)
+scale = Vector2(0.299, 0.25)
 texture = ExtResource("2_epypp")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player/Sprite2D" unique_id=948541952]
+libraries/ = SubResource("AnimationLibrary_wqmsq")
+autoplay = &"waddle"
 
 [node name="PickupArea" type="Area2D" parent="Player" unique_id=991732560]
 position = Vector2(-263, 8)
+scale = Vector2(0.5, 0.5)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/PickupArea" unique_id=1907379525]
-position = Vector2(450, 350)
+position = Vector2(890, 712)
+scale = Vector2(0.5, 0.5)
 shape = SubResource("CapsuleShape2D_epypp")
 
 [node name="HeldSnowglobe" type="Sprite2D" parent="Player" unique_id=1402812358]
 visible = false
-position = Vector2(437, 382)
+position = Vector2(331, 337)
 scale = Vector2(0.3, 0.3)
 texture = ExtResource("1_wtcfe")
 
@@ -45,14 +335,36 @@ position = Vector2(-163, 39)
 
 [node name="Basket" type="Area2D" parent="." unique_id=441620339 groups=["Basket"]]
 position = Vector2(-48, 5)
+scale = Vector2(0.8, 0.8)
 
 [node name="Sprite2D" type="Sprite2D" parent="Basket" unique_id=2015137180]
-position = Vector2(1089.5, 493.25)
+position = Vector2(1355, 639)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("5_q6r6c")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Basket" unique_id=689076040]
-position = Vector2(1086.5, 490.25)
+position = Vector2(1352, 636)
 shape = SubResource("CapsuleShape2D_kdubu")
+
+[node name="Frost" type="AnimatedSprite2D" parent="." unique_id=2015086104]
+position = Vector2(593, 111.000015)
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_td2a2")
+autoplay = "default"
+
+[node name="Icicle" type="RigidBody2D" parent="." unique_id=1698484205]
+script = ExtResource("27_wqmsq")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="Icicle" unique_id=1979481413]
+position = Vector2(437.00003, 152.00002)
+rotation = 1.5707964
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_0xo8l")
+autoplay = "default"
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Icicle" unique_id=1938847149]
+position = Vector2(-464.0003, -18.20119)
+scale = Vector2(1.0000004, 1.3779762)
+polygon = PackedVector2Array(878, 72.19439, 899, 154.19434, 917, 70.19439)
 
 [connection signal="area_entered" from="Player/PickupArea" to="Player" method="_on_pickup_area_area_entered"]
